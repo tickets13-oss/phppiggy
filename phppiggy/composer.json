@@ -1,0 +1,17 @@
+{
+  "name": "tickets/phppiggy",
+  "description": "A PHP for tracking expenses",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Tickets"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "src/Framework",
+      "App\\": "src/App"
+    }
+  }
+}
